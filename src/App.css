@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.darkMode{
+  transition:all  0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.819);
+  
+}
+.darkMode h1{
+  transition:all  0.2s ease-in-out;
+  color: white;
+}

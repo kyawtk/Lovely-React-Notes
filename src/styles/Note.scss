@@ -1,0 +1,45 @@
+.note{
+    background-color: rgb(238, 238, 134);
+   
+    border-radius: 10px;
+    padding: 1rem;
+    white-space: pre-wrap;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .note-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.note.new{
+    background-color: rgb(176, 176, 254);
+    textarea{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+    .save{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 5px 10px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }.save:hover{
+        background-color: rgb(251, 251, 251);
+    }
+    
+}
+
+.delete-btn{
+    cursor: pointer;
+
+}
+.delete-btn:hover{
+    color: red;
+    transform: scale(1.5);
+}
